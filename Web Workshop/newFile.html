@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <script src="newFile.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>hi</h1>
+    </div>
+    <div>
+        <form name="forName" onsubmit="return validateForm()">
+            <div>
+                <label>Name</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label>Email</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label>Phone</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+            <div>
+                <label>Gender</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+            <div>
+                <label>Password</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div>
+                <label>Confirm Password</label>
+                <span>*</span>
+                <span>:</span>
+                <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+            </div>
+            <div>
+                <label>Message</label>
+                <span>*</span>
+                <span>:</span>
+                <textarea id="message" placeholder="Enter your message"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="check" name="check" value="check">
+                <label for="check">I agree to the terms and conditions</label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
